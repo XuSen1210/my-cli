@@ -1,0 +1,21 @@
+project_name: my-cli
+
+archives:
+  - format: tar.gz
+    format_overrides:
+      - goos: windows
+        format: zip
+    files:
+      - README.md
+
+checksums:
+  algorithm: sha256
+
+release:
+  github:
+    owner: YOUR_USERNAME
+    name: my-cli
+  draft: true
+
+snapshot:
+  name_template: "{{ .Tag }}-next"
