@@ -8,3 +8,5 @@ my-cli
 
 # OS
 .DS_Store
+# Added by goreleaser init:
+dist/
