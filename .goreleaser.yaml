@@ -13,7 +13,7 @@ checksums:
 
 release:
   github:
-    owner: YOUR_USERNAME
+    owner: XuSen1210
     name: my-cli
   draft: true
 

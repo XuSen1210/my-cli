@@ -1,0 +1,10 @@
+# Binary output
+my-cli
+*.exe
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
